@@ -405,7 +405,7 @@ export default function Page() {
   </div>
   <div className="intro-meta">
     <div><span>Currently</span>Available for freelance projects</div>
-    <div><span>Works with</span>React · TypeScript · Figma</div>
+    <div><span>Works with</span>React · Figma</div>
     <div><span>Elsewhere</span><a href={profile.github} target="_blank" rel="noreferrer">GitHub</a> · <a href={profile.linkedin} target="_blank" rel="noreferrer">LinkedIn</a></div>
   </div>
 </section>
@@ -417,7 +417,7 @@ export default function Page() {
       <section className="skills-section section" id="skills"><ParticleField mode="constellation" /><div className="section-heading skills-content"><div><span className="section-number">03</span><h2>How I work</h2></div></div><div className="skills-layout skills-content"><p className="skills-lede">I bring together <em>curiosity, clarity,</em> and a love for the details that make an experience feel right.</p><div className="skill-list"><MagneticSkill icon={<BriefcaseBusiness size={18} />} title="Web development" detail=" CSS3/SCSS · JavaScript(ES6+) · React" /><MagneticSkill icon={<Check size={18} />} title="Design & Prototyping" detail="Figma · Prototyping · Design systems" /><MagneticSkill icon={<MessageCircle size={18} />} title="Content Management & Backend" detail="WordPress · Headless CMS · REST API ·Custom Gutenberg Blocks" /></div></div></section>
 
       <TalkSection />
-      <footer><span>© 2026 Sandra Asante</span><div><a href="mailto:sandra.asante@gmail.com" aria-label="Email Sandra"><Mail size={17} /></a><a href="#contact" aria-label="WhatsApp Sandra"><MessageCircle size={17} /></a><a href="#top" aria-label="Back to top">Back to top ↑</a></div></footer>
+      <footer><span>© 2026 Sandra Asante</span><div><a href="mailto:sandra.bh.asante@gmail.com" aria-label="Email Sandra"><Mail size={17} /></a><a href="#contact" aria-label="WhatsApp Sandra"><MessageCircle size={17} /></a><a href="#top" aria-label="Back to top">Back to top ↑</a></div></footer>
     </main>
   )
 }
