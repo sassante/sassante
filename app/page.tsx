@@ -13,16 +13,16 @@ const profile = {
 }
 
 const projects = [
-  { title: 'Weather App', type: 'web development', tech: 'JavaScript · API integration', description: 'A focused weather experience with dynamic scenery, clear forecasts, and a friendly search flow.', tone: 'sunset', href: 'https://weather-app-sandra.vercel.app' },
-  { title: 'SafeSmartTech', type: 'Web design & development', tech: 'WordPress · Responsive UI', description: 'A modern, mobile-first website that makes digital safety feel approachable for every audience.', tone: 'blue', href: 'https://safesmarttech.vercel.app' },
-  { title: 'Henmasi Trading', type: 'E-commerce experience', tech: 'TypeScript · UI engineering', description: 'A practical storefront designed to help customers browse, trust, and buy with confidence.', tone: 'green', href: 'https://henmasi-trading.vercel.app' },
-  { title: 'cloudBridge', type: 'Product concept', tech: 'JavaScript · UX thinking', description: 'A seamless file-transfer concept for moving work between cloud platforms without the download loop.', tone: 'violet', href: 'https://cloudbridge.vercel.app' },
+  { title: 'Studydeck', type: 'web development', tech: 'JavaScript · API integration', description: 'AI-powered quiz generator for students.', tone: 'sunset', href: 'https://ai-quiz-generator-mu.vercel.app' },
+  { title: 'FlorenceEmpowers', type: 'Web design & development', tech: 'WordPress · Responsive UI', description: 'A modern, mobile-first website that makes digital safety feel approachable for every audience.', tone: 'blue', href: 'https://dev-florenceempowers.pantheonsite.io' },
+  { title: 'Henmasi Trading', type: 'E-commerce experience', tech: 'TypeScript · UI engineering', description: 'A practical storefront designed to help customers browse, trust, and buy with confidence.', tone: 'green', href: 'https://henmasitradingenterprise.vercel.app' },
+  { title: 'cloudBridge', type: 'Product concept', tech: 'JavaScript · UX thinking', description: 'A seamless file-transfer concept for moving work between cloud platforms without the download loop.', tone: 'violet', href: 'https://movemycloud.vercel.app' },
 ]
 
 const designProjects = [
-  { title: 'Ghana Beauty', type: 'Mobile app concept', tech: 'Figma · Product design', description: 'A warm, expressive beauty booking experience designed around local needs and everyday confidence.', tone: 'rose', href: 'https://www.figma.com/' },
-  { title: 'Game', type: 'Mobile interaction', tech: 'Figma · Prototyping', description: 'A playful game prototype exploring tactile feedback, simple rules, and satisfying progression.', tone: 'orange', href: 'https://www.figma.com/' },
-  { title: 'E-commerce', type: 'Web app concept', tech: 'Figma · UX/UI', description: 'A clean shopping journey that keeps product discovery, comparison, and checkout feeling effortless.', tone: 'teal', href: 'https://www.figma.com/' },
+  { title: 'Ghana Beauty', type: 'Mobile app concept', tech: 'Figma · Product design', description: 'A warm, expressive beauty booking experience designed around local needs and everyday confidence.', tone: 'rose', href: 'https://www.figma.com/design/o0nyy0Smae0qD3ZhA19tuS/Ghana-Beauty-mobile-app?t=yYCXdIUDC2PdCDRq-1' },
+  { title: 'Donation City', type: 'Web interaction', tech: 'Figma · Prototyping', description: 'A website prototype for donation city .', tone: 'orange', href: 'https://www.figma.com/design/tHPZmexCXrgoeKLaddsdp6/DONATION-CITY?node-id=0-1&t=VlZYubMvmWjl8e1i-1' },
+  { title: 'E-learning', type: 'Web app concept', tech: 'Figma · UX/UI', description: 'A clean elearning site that keeps product discovery, comparison, and checkout feeling effortless.', tone: 'teal', href: 'https://www.figma.com/design/Zaka75bwRvjqhKM0AbJsl2/Untitled?node-id=0-1&t=yYCXdIUDC2PdCDRq-1' },
 ]
 
 function WordReveal({ children }: { children: string }) {
@@ -410,7 +410,7 @@ export default function Page() {
   </div>
 </section>
 
-      <section className="work-section section" id="work"><PerspectiveGrid /><div className="section-heading work-content"><div><span className="section-number">01</span><h2>Selected work</h2></div><p>A small collection of things I&apos;ve built, designed, and cared deeply about.</p></div><div className="project-grid">{projects.map(project => <ProjectCard project={project} key={project.title} />)}</div></section>
+      <section className="work-section section" id="work"><PerspectiveGrid /><div className="section-heading work-content"><div><span className="section-number">01</span><h2>Selected work</h2></div><p>A small collection of things I&apos;ve built and designed.</p></div><div className="project-grid">{projects.map(project => <ProjectCard project={project} key={project.title} />)}</div></section>
 
       <section className="design-section section"><ParticleField mode="constellation" tone="light" /><div className="section-heading"><div><span className="section-number">02</span><h2>Design explorations</h2></div><p>Ideas, interfaces, and visual systems made in Figma.</p></div><div className="design-grid">{designProjects.map(project => <DesignCard project={project} key={project.title} />)}</div></section>
 
